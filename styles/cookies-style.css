@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+
+:root {
+
+  --ff-poppins: 'Poppins', sans-serif;
+  --ff-oswald: 'Oswald', sans-serif;
+
+  --ff-light: 300;
+  --ff-medium: 500;
+  --ff-bold: 700;
+}
+
+body {
+margin: 0;
+padding: 0 5rem;
+}
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Nav */
+nav {
+  margin-top: -10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a {
+  font-size: 4rem;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  font-family: var(--ff-oswald);
+  font-size: 10rem;
+  text-transform: uppercase;
+}
+
+/*  Info Container */
+.info-container {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-info {
+  text-align: right;
+  font-size: 1.5rem;
+  flex-direction: column;
+  width: 35rem;
+  height: 25rem;
+  padding: 0 4rem;
+  background-color: yellow;
+}
+
+picture {
+  background-color: red;
+  padding: 1rem;
+}
+img {
+  height: 500px;
+}
+
+/* Directions Container */
+.directions-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+ul {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ol {
+  width: 40rem;
+  padding: 5rem;
+  background-color: blue;
+  color: white;
+}
+
+li {
+  padding: 0.1rem 1rem;
+}
+
